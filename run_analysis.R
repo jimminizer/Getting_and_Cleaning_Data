@@ -1,3 +1,5 @@
+
+# 1. Merges the training and the test sets to create one data set.
 tmp1 <- read.table("train/X_train.txt")
 tmp2 <- read.table("test/X_test.txt")
 X <- rbind(tmp1, tmp2)
